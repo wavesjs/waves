@@ -15,9 +15,7 @@ $ npm install -g browserify
 $ npm install -g uglify-js
 ```
 
-remove/comment all the component you don't need in `waves.js`
-
-then run
+remove/comment all the component you don't need in `waves.js`, then run
 
 ```npm
 $ npm run build
@@ -38,6 +36,7 @@ $ npm run build
 #### UI.Helpers
 
 - [`zoomer`](https://github.com/Ircam-RnD/zoomer)
+- [`loaders`](https://github.com/Ircam-RnD/loaders)
 
 #### Audio
 
