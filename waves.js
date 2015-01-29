@@ -14,7 +14,8 @@ waves.ui = {
 };
 
 waves.helpers = {
-  zoomer: require('zoomer')
+  zoomer: require('zoomer'),
+  loaders: require('loaders')
 };
 
 waves.utils = require('utils');

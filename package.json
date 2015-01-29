@@ -21,6 +21,7 @@
     "breakpoint": "git://github.com/ircam-rnd/breakpoint",
     "label": "git://github.com/ircam-rnd/label",
     "layer": "git://github.com/ircam-rnd/layer",
+    "loaders": "git://github.com/ircam-rnd/loaders",
     "marker": "git://github.com/ircam-rnd/marker",
     "segment": "git://github.com/ircam-rnd/segment",
     "timeline": "git://github.com/ircam-rnd/timeline",
