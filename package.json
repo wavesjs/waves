@@ -1,0 +1,31 @@
+{
+  "name": "waves",
+  "version": "0.1.0",
+  "description": "namespaced hub for the waves components",
+  "main": "waves.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify waves.js -o waves.umd.js -s waves -d && uglifyjs waves.umd.js -o waves.min.js --screw-ie8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ircam-RnD/waves.git"
+  },
+  "author": "Benjamin Matuszewski",
+  "license": "BSD-3",
+  "bugs": {
+    "url": "https://github.com/Ircam-RnD/waves/issues"
+  },
+  "homepage": "https://github.com/Ircam-RnD/waves",
+  "dependencies": {
+    "breakpoint": "git://github.com/ircam-rnd/breakpoint",
+    "label": "git://github.com/ircam-rnd/label",
+    "layer": "git://github.com/ircam-rnd/layer",
+    "marker": "git://github.com/ircam-rnd/marker",
+    "segment": "git://github.com/ircam-rnd/segment",
+    "timeline": "git://github.com/ircam-rnd/timeline",
+    "utils": "git://github.com/ircam-rnd/utils",
+    "waveform": "git://github.com/ircam-rnd/waveform",
+    "zoomer": "git://github.com/ircam-rnd/zoomer"
+  }
+}

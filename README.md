@@ -6,6 +6,23 @@ WAVES library repository
 
 [https://ircam-rnd.github.io/waves/](https://ircam-rnd.github.io/waves/)
 
+## Custom build
+
+to create your own custom build, you need to
+
+```bash
+$ npm install -g browserify
+$ npm install -g uglify-js
+```
+
+remove/comment all the component you don't need in `waves.js`
+
+then run
+
+```npm
+$ npm run build
+```
+
 ## List of components
 
 #### UI
