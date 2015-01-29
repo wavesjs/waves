@@ -52,7 +52,7 @@ add the script tag in your at the bottom of the `<body>`
 <script scr="/path/to/waves.umd.js"></script>
 ```
 
-the libray is exposed in `window.waves`
+the library is exposed in `window.waves`
 
 
 ## Custom build
