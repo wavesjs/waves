@@ -6,19 +6,68 @@ WAVES library repository
 
 [https://ircam-rnd.github.io/waves/](https://ircam-rnd.github.io/waves/)
 
+## Use
+
+#### CommonJS (browserify)
+
+install with npm
+
+```bash
+npm install --save ircam-rnd/waves
+```
+
+consume in your modules
+
+```javascript
+var waves = require('waves');
+```
+
+#### AMD (requireJS)
+
+add the waves library to your config
+
+```javascript
+requirejs.config({
+  paths: {
+    waves: 'path/to/waves.umd'
+  }
+});
+```
+
+consume in your modules
+
+```javascript
+define(['waves'], function(waves) {
+  var timeline = waves.ui.timeline();
+
+  // ...
+});
+```
+
+#### Global
+
+add the script tag in your at the bottom of the `<body>`
+
+```html
+<script scr="/path/to/waves.umd.js"></script>
+```
+
+the libray is exposed in `window.waves`
+
+
 ## Custom build
 
 to create your own custom build, you need to
 
 ```bash
-$ npm install -g browserify
-$ npm install -g uglify-js
+npm install -g browserify
+npm install -g uglify-js
 ```
 
 remove/comment all the component you don't need in `waves.js`, then run
 
-```npm
-$ npm run build
+```bash
+npm run build
 ```
 
 ## List of components

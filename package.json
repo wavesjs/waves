@@ -5,7 +5,7 @@
   "main": "waves.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify waves.js -o waves.umd.js -s waves -d && uglifyjs waves.umd.js -o waves.min.js --screw-ie8"
+    "build": "npm install && browserify waves.js -o waves.umd.js -s waves -d && uglifyjs waves.umd.js -o waves.min.js --screw-ie8"
   },
   "repository": {
     "type": "git",
