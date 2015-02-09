@@ -1,6 +1,6 @@
 {
   "name": "waves",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "namespaced hub for the waves components",
   "main": "waves.js",
   "scripts": {
