@@ -81,15 +81,17 @@ npm run build
 - [`marker`](https://github.com/Ircam-RnD/marker)
 - [`breakpoint`](https://github.com/Ircam-RnD/breakpoint)
 - [`label`](https://github.com/Ircam-RnD/label)
-
-#### UI.Helpers
-
 - [`zoomer`](https://github.com/Ircam-RnD/zoomer)
-- [`loaders`](https://github.com/Ircam-RnD/loaders)
+- [`utils`](https://github.com/Ircam-RnD/utils)
 
 #### Audio
 
-#### Utils
+#### LFO
 
-- [`utils`](https://github.com/Ircam-RnD/utils)
+#### Loaders
+
+- [`loaders`](https://github.com/Ircam-RnD/loaders)
+
+
+
 
