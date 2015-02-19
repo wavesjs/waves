@@ -27,6 +27,18 @@
     "timeline": "git://github.com/ircam-rnd/timeline",
     "utils": "git://github.com/ircam-rnd/utils",
     "waveform": "git://github.com/ircam-rnd/waveform",
-    "zoomer": "git://github.com/ircam-rnd/zoomer"
+    "zoomer": "git://github.com/ircam-rnd/zoomer",
+
+    "audio-context": "git://github.com/ircam-rnd/audio-context",
+    "granular-engine": "git://github.com/ircam-rnd/granular-engine",
+    "metronome": "git://github.com/ircam-rnd/metronome",
+    "play-control": "git://github.com/ircam-rnd/play-control",
+    "player-engine": "git://github.com/ircam-rnd/player-engine",
+    "priority-queue": "git://github.com/ircam-rnd/priority-queue", 
+    "scheduler": "git://github.com/ircam-rnd/scheduler",
+    "segment-engine": "git://github.com/ircam-rnd/segment-engine",
+    "simple-scheduler": "git://github.com/ircam-rnd/simple-scheduler",
+    "time-engine": "git://github.com/ircam-rnd/time-engine",
+    "transport": "git://github.com/ircam-rnd/transport"
   }
 }

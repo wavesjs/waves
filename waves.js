@@ -17,7 +17,19 @@ waves.ui = {
 
 waves.loaders = require('loaders');
 
-waves.audio = {};
+waves.audio = {
+	audioContext: require('audio-context'),
+	granularEngine: require('granular-engine'),
+	metronome: require('metronome'),
+	playControl: require('play-control'),
+	playerEngine: require('player-engine'),
+	priorityQueue: require('priority-queue'),
+	scheduler: require('scheduler'),
+	segmentEngine: require('segment-engine'),
+	simpleScheduler: require('simple-scheduler'),
+	timeEngine: require('time-engine'),
+	transport: require('transport')
+};
 
 waves.lfo = {};
 
