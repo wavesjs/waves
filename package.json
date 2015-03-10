@@ -3,7 +3,7 @@
   "version": "0.1.3",
   "description": "namespaced wrapper for the waves components",
   "main": "waves.js",
-  "standalone": "wavesUI",
+  "standalone": "waves",
   "scripts": {
     "prebundle": "npm update -d",
     "bundle": "node ./bin/scripts.js --bundle",
