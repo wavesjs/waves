@@ -6,6 +6,8 @@ WAVES library repository
 
 [https://waves.github.io/](https://wavesjs.github.io/)
 
+this bundle is basically a wrapper for the `waves-ui`, `waves-audio`, `waves-loader` and `waves-lfo` libraries
+
 ## Use
 
 #### CommonJS (browserify)
@@ -57,14 +59,19 @@ the library is exposed in `window.waves`
 
 ## Custom build
 
-to create your own custom build, you need to
-remove/comment all the component you don't need in `waves.js`, then run
+to create your own custom build, you need to remove/comment all the component you don't need in `waves.js`, then run
 
 ```bash
-npm run build
+npm run bundle
 ```
 
-## List of components
+## License
+
+This module is released under the BSD-3-Clause license.
+
+Acknowledgments
+
+This code is part of the WAVE project, funded by ANR (The French National Research Agency).
 
 
 
