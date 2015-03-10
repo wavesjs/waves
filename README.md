@@ -4,7 +4,7 @@ WAVES library repository
 
 ## Documentation
 
-[https://ircam-rnd.github.io/waves/](https://ircam-rnd.github.io/waves/)
+[https://waves.github.io/](https://wavesjs.github.io/)
 
 ## Use
 
@@ -13,7 +13,7 @@ WAVES library repository
 install with npm
 
 ```bash
-npm install --save ircam-rnd/waves
+npm install --save wavesjs/waves
 ```
 
 consume in your modules
@@ -58,12 +58,6 @@ the library is exposed in `window.waves`
 ## Custom build
 
 to create your own custom build, you need to
-
-```bash
-npm install -g browserify
-npm install -g uglify-js
-```
-
 remove/comment all the component you don't need in `waves.js`, then run
 
 ```bash
@@ -72,25 +66,6 @@ npm run build
 
 ## List of components
 
-#### UI
-
-- [`timeline`](https://github.com/Ircam-RnD/timeline)
-- [`layer`](https://github.com/Ircam-RnD/layer)
-- [`waveform`](https://github.com/Ircam-RnD/waveform)
-- [`segment`](https://github.com/Ircam-RnD/segment)
-- [`marker`](https://github.com/Ircam-RnD/marker)
-- [`breakpoint`](https://github.com/Ircam-RnD/breakpoint)
-- [`label`](https://github.com/Ircam-RnD/label)
-- [`zoomer`](https://github.com/Ircam-RnD/zoomer)
-- [`utils`](https://github.com/Ircam-RnD/utils)
-
-#### Audio
-
-#### LFO
-
-#### Loaders
-
-- [`loaders`](https://github.com/Ircam-RnD/loaders)
 
 
 
